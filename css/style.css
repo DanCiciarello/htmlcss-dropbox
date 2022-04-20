@@ -75,6 +75,16 @@ h2 {
     line-height: 50px;
 }
 
+h3 {
+    font-size: 26px;
+    line-height: 38px;
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 26px;
+}
+
 .nav-link {
     text-decoration: none;
     color: #000000;
@@ -114,6 +124,16 @@ h2 {
 
 .custom-list-element-text {
     flex-grow: 1;
+}
+
+
+/*---------------------*/
+/* Custom line divider */
+/*---------------------*/
+
+.line-divider-small {
+    width: 50px;
+    border-bottom: 1px solid #E3E3E5;
 }
 
 
@@ -221,6 +241,8 @@ header {
 .price-cards-wrapper {
     width: 100%;
     gap: 42px;
+    align-items: stretch;
+    padding-bottom: var(--padding-l);
 }
 
 .price-card {
@@ -243,7 +265,7 @@ header {
 }
 
 .price-card-info {
-    padding: 30px 30px 20px;
+    padding: 30px 25px 20px;
 }
 
 .price-card-title,
@@ -257,5 +279,24 @@ header {
 }
 
 .price-card-features-list {
-    padding-top: 40px;
+    padding: 40px 0;
+}
+
+.price-card-cta a {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.price-card .line-divider-small {
+    margin-top: var(--padding-l);
+    margin-bottom: var(--padding-l);
+}
+
+.price-card .price-card-usp h6 {
+    padding-bottom: var(--padding-standard);
+}
+
+.price-card .price-card-usp i {
+    color: #0E63FF;
 }
