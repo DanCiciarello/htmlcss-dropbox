@@ -252,6 +252,10 @@ header {
     border: 1px solid #EDEDEE;
 }
 
+.price-card-enterprise {
+    max-width: 100%;
+}
+
 .price-card-name {
     width: 100%;
     padding: 10px 0;
@@ -299,4 +303,20 @@ header {
 
 .price-card .price-card-usp i {
     color: #0E63FF;
+}
+
+.price-card-enterprise-col-large {
+    max-width: 70%;
+    width: 100%;
+}
+
+.price-card-enterprise-col-small {
+    max-width: 30%;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.price-card-enterprise .price-card-info .price-card-enterprise-col-large .price-card-value {
+    padding-bottom: var(--padding-l);
 }
