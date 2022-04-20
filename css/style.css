@@ -54,6 +54,10 @@
     justify-content: center;
 }
 
+.grow {
+    flex-grow: 1;
+}
+
 
 /*------------*/
 /* Typography */
@@ -107,6 +111,12 @@ h6 {
 
 .btn-small {
     padding: 4px 15px;
+}
+
+.btn-outline {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
 }
 
 
@@ -238,6 +248,7 @@ header {
     padding-right: 20px;
 }
 
+.usp-section-wrapper,
 .price-cards-wrapper {
     width: 100%;
     gap: 42px;
@@ -245,6 +256,7 @@ header {
     padding-bottom: var(--padding-l);
 }
 
+.usp-tile,
 .price-card {
     max-width: calc(100% / 3 - 28px);
     min-width: 260px;
@@ -319,4 +331,55 @@ header {
 
 .price-card-enterprise .price-card-info .price-card-enterprise-col-large .price-card-value {
     padding-bottom: var(--padding-l);
+}
+
+
+/*----------------*/
+/* Find a partner */
+/*----------------*/
+
+.find-a-partner-section {
+    padding: 80px 0;
+}
+
+.find-a-partner-col {
+    width: 40%;
+}
+
+.find-a-partner-col:last-of-type {
+    padding: var(--padding-l) 0 0 var(--padding-l);
+}
+
+.find-a-partner-section .find-a-partner-col img {
+    width: 100%;
+}
+
+.find-a-partner-section .find-a-partner-col p {
+    padding: 20px 0;
+}
+
+
+/*----------------------*/
+/* Dropbox Business USP */
+/*----------------------*/
+
+.usp-section {
+    padding-top: var(--padding-l);
+}
+
+.usp-section-title {
+    padding-bottom: var(--padding-l);
+}
+
+.usp-section .usp-section-wrapper .usp-tile {
+    border: none;
+}
+
+.usp-section .usp-section-wrapper .usp-tile .usp-tile-image img {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.usp-section .usp-section-wrapper .usp-tile .usp-tile-info h3 {
+    padding-bottom: 20px;
 }
