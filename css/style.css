@@ -427,6 +427,11 @@ header {
     height: calc(100vw / 6);
 }
 
+.clients .clients-grid-col .clients-grid-square img {
+    width: 50%;
+    filter: invert();
+}
+
 .clients .clients-grid-col #square-green {
     background-color: #A2D39B;
     border: 15px solid #D1E9CD;
@@ -462,6 +467,23 @@ header {
 
 .clients .clients-grid-col:nth-child(2) {
     background-color: #F5F5F5;
+    padding: var(--padding-l);
+}
+
+.clients .clients-grid-col:nth-child(2) .line-divider-large {
+    border-bottom: 1px solid #D5D5D7;
+}
+
+.clients .clients-grid-col .clients-grid-central-col-logo {
+    padding-bottom: var(--padding-standard);
+}
+
+.clients .clients-grid-col .clients-grid-central-col-logo img {
+    width: 50%;
+}
+
+.clients .clients-grid-col .clients-grid-central-col-quote p:first-of-type {
+    padding: var(--padding-standard) 0 var(--padding-l) 0;
 }
 
 .clients-cta {
