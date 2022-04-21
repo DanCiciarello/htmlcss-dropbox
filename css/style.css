@@ -426,6 +426,7 @@ header {
 
 .clients-cta-col {
     width: 50%;
+    min-width: 350px;
 }
 
 .clients-cta-col:last-of-type {
@@ -439,4 +440,34 @@ header {
 
 .clients .clients-cta .clients-cta-wrapper .clients-cta-col .btn-outline {
     border: none;
+}
+
+
+/*-----*/
+/* FAQ */
+/*-----*/
+
+.faq {
+    padding: var(--padding-xl) 0;
+}
+
+.faq-list {
+    padding: var(--padding-l) 0;
+}
+
+.faq .faq-item {
+    padding: var(--padding-standard) 0;
+    border-top: 1px solid #000000;
+}
+
+.faq .faq-item:last-of-type {
+    border-bottom: 1px solid #000000;
+}
+
+.faq .faq-list .faq-item-col-small {
+    min-width: 5%;
+}
+
+.faq .faq-list .faq-item-col-large {
+    min-width: 95%;
 }
