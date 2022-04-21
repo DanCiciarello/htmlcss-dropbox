@@ -66,7 +66,7 @@
 /*------------*/
 
 p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
 }
 
@@ -77,12 +77,12 @@ h1 {
 }
 
 h2 {
-    font-size: 37px;
+    font-size: 35px;
     line-height: 50px;
 }
 
 h3 {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 38px;
 }
 
@@ -145,6 +145,11 @@ h6 {
 
 .line-divider-small {
     width: 50px;
+    border-bottom: 1px solid #E3E3E5;
+}
+
+.line-divider-large {
+    width: 100px;
     border-bottom: 1px solid #E3E3E5;
 }
 
@@ -470,4 +475,46 @@ header {
 
 .faq .faq-list .faq-item-col-large {
     min-width: 95%;
+}
+
+
+/*--------*/
+/* Footer */
+/*--------*/
+
+footer {
+    background-color: #000000;
+    padding: var(--padding-l) 0;
+}
+
+.footer-col-wrapper {
+    padding-bottom: var(--padding-xl);
+}
+
+.footer-col {
+    max-width: 226px;
+    min-width: 200px;
+    width: 100%;
+}
+
+footer .footer-col h3 {
+    color: #ffffff;
+    padding-bottom: 25px;
+}
+
+footer .footer-col a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.footer-language-selector {
+    padding-top: var(--padding-standard);
+    color: #ffffff;
+}
+
+.footer-language-selector p {
+    display: inline-block;
+    padding: 0 5px;
 }
