@@ -484,11 +484,11 @@ header {
 
 footer {
     background-color: #000000;
-    padding: var(--padding-l) 0;
+    padding: var(--padding-standard) 0;
 }
 
 .footer-col-wrapper {
-    padding-bottom: var(--padding-xl);
+    padding: var(--padding-standard) 0 var(--padding-l) 0;
 }
 
 .footer-col {
